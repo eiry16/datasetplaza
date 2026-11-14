@@ -1,0 +1,866 @@
+{
+ "schema": "bdsp-hub-crosswalk-0",
+ "generated_at": "2026-11-08",
+ "purpose": "把用户问题翻译成平台原生 facet，而不是替平台重分类 200 万条子集",
+ "axes": {
+  "topic": "主题轴：我们 T01–T15 ↔ DCAT 13 / WB 21 / Kaggle subject",
+  "form": "形态轴：我们 M1–M7 ↔ Kaggle data type",
+  "task": "用途轴：Kaggle 有，我们没有（建议补）"
+ },
+ "coverage": {
+  "our_l1_total": 15,
+  "any_mapping": 15,
+  "exact_any": 12,
+  "exact_dcat_only": 10,
+  "exact_wb_only": 11,
+  "no_exact": [
+   "T10",
+   "T12",
+   "T14"
+  ],
+  "dcat_no_mapping": [
+   "T10",
+   "T12",
+   "T14"
+  ]
+ },
+ "our_l1": [
+  {
+   "code": "T01",
+   "name": "宏观经济与统计",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:ECON",
+     "conf": "exact"
+    },
+    {
+     "src": "DCAT:REGI",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Economy & Growth",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T02",
+   "name": "贸易与产业",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:INTR",
+     "conf": "weak"
+    },
+    {
+     "src": "WB:Private Sector",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Trade",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T03",
+   "name": "金融财税与企业",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:ECON",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Financial Sector",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:External Debt",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T04",
+   "name": "人口与社会民生",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:SOCI",
+     "conf": "broad"
+    },
+    {
+     "src": "DCAT:GOVE",
+     "conf": "broad"
+    },
+    {
+     "src": "DCAT:POPL",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Social Protection & Labor",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Poverty",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Social Development",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Gender",
+     "conf": "broad"
+    }
+   ]
+  },
+  {
+   "code": "T05",
+   "name": "教育与人力",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:SOCI",
+     "conf": "broad"
+    },
+    {
+     "src": "DCAT:EDUC",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Education",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T06",
+   "name": "医疗卫生",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:HEAL",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Health",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T07",
+   "name": "农林牧渔与食品",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:AGRI",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Agriculture & Rural Development",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T08",
+   "name": "能源与电力",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:ENER",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Energy & Mining",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T09",
+   "name": "环境与气候",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:ENVI",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Environment",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Climate Change",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T10",
+   "name": "气象与灾害",
+   "best": "broad",
+   "native": [
+    {
+     "src": "WB:Climate Change",
+     "conf": "broad"
+    }
+   ]
+  },
+  {
+   "code": "T11",
+   "name": "交通与物流",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:TRAN",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Infrastructure",
+     "conf": "broad"
+    }
+   ]
+  },
+  {
+   "code": "T12",
+   "name": "工业制造与资源",
+   "best": "broad",
+   "native": [
+    {
+     "src": "WB:Energy & Mining",
+     "conf": "broad"
+    }
+   ]
+  },
+  {
+   "code": "T13",
+   "name": "城市与公用事业",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:REGI",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Infrastructure",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Urban Development",
+     "conf": "exact"
+    }
+   ]
+  },
+  {
+   "code": "T14",
+   "name": "数字技术与 AI 语料",
+   "best": "broad",
+   "native": [
+    {
+     "src": "WB:Science & Technology",
+     "conf": "broad"
+    }
+   ]
+  },
+  {
+   "code": "T15",
+   "name": "政府治理与法规",
+   "best": "exact",
+   "native": [
+    {
+     "src": "DCAT:SOCI",
+     "conf": "broad"
+    },
+    {
+     "src": "DCAT:GOVE",
+     "conf": "exact"
+    },
+    {
+     "src": "DCAT:JUST",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Aid Effectiveness",
+     "conf": "broad"
+    },
+    {
+     "src": "WB:Public Sector",
+     "conf": "exact"
+    },
+    {
+     "src": "WB:Millennium Development Goals",
+     "conf": "weak"
+    }
+   ]
+  }
+ ],
+ "dcat_ap": {
+  "SOCI": {
+   "ours": [
+    "T04",
+    "T15",
+    "T05"
+   ],
+   "conf": {
+    "T04": "broad",
+    "T15": "broad",
+    "T05": "broad"
+   },
+   "measured_n": 139,
+   "note": "最宽的桶：社会问题同时含民生、治理、教育，必须靠关键词再切"
+  },
+  "ECON": {
+   "ours": [
+    "T01",
+    "T03"
+   ],
+   "conf": {
+    "T01": "exact",
+    "T03": "broad"
+   },
+   "measured_n": 112,
+   "note": "经济与金融不分离，命中后要按 name 判是统计口径还是企业/税"
+  },
+  "GOVE": {
+   "ours": [
+    "T15",
+    "T04"
+   ],
+   "conf": {
+    "T15": "exact",
+    "T04": "broad"
+   },
+   "measured_n": 112,
+   "note": "政府与公共部门；含大量市政服务数据，会漏到民生"
+  },
+  "TRAN": {
+   "ours": [
+    "T11"
+   ],
+   "conf": {
+    "T11": "exact"
+   },
+   "measured_n": 85,
+   "note": "干净"
+  },
+  "ENVI": {
+   "ours": [
+    "T09"
+   ],
+   "conf": {
+    "T09": "exact"
+   },
+   "measured_n": 83,
+   "note": "干净；气象灾害也被塞进来，需再分 T10"
+  },
+  "REGI": {
+   "ours": [
+    "T13",
+    "T01"
+   ],
+   "conf": {
+    "T13": "exact",
+    "T01": "broad"
+   },
+   "measured_n": 72,
+   "note": "地区与城市；区域统计 vs 市政设施要靠名称区分"
+  },
+  "HEAL": {
+   "ours": [
+    "T06"
+   ],
+   "conf": {
+    "T06": "exact"
+   },
+   "measured_n": 71,
+   "note": "干净"
+  },
+  "EDUC": {
+   "ours": [
+    "T05"
+   ],
+   "conf": {
+    "T05": "exact"
+   },
+   "measured_n": 56,
+   "note": "干净，但含文化体育"
+  },
+  "JUST": {
+   "ours": [
+    "T15"
+   ],
+   "conf": {
+    "T15": "broad"
+   },
+   "measured_n": 51,
+   "note": "司法/公共安全，归治理"
+  },
+  "AGRI": {
+   "ours": [
+    "T07"
+   ],
+   "conf": {
+    "T07": "exact"
+   },
+   "measured_n": 30,
+   "note": "农业渔业林业都在内，粒度够"
+  },
+  "ENER": {
+   "ours": [
+    "T08"
+   ],
+   "conf": {
+    "T08": "exact"
+   },
+   "measured_n": 22,
+   "note": "干净"
+  },
+  "INTR": {
+   "ours": [
+    "T02"
+   ],
+   "conf": {
+    "T02": "weak"
+   },
+   "measured_n": 2,
+   "note": "国际事务；命中极少，不能作为贸易主通道"
+  },
+  "POPL": {
+   "ours": [
+    "T04"
+   ],
+   "conf": {
+    "T04": "exact"
+   },
+   "measured_n": 0,
+   "note": "实测 0 命中——找人口数据不能靠这个主题"
+  }
+ },
+ "world_bank": {
+  "1": {
+   "topic": "Agriculture & Rural Development",
+   "ours": [
+    "T07"
+   ],
+   "conf": {
+    "T07": "exact"
+   },
+   "indicators": 49
+  },
+  "2": {
+   "topic": "Aid Effectiveness",
+   "ours": [
+    "T15"
+   ],
+   "conf": {
+    "T15": "broad"
+   },
+   "indicators": null
+  },
+  "3": {
+   "topic": "Economy & Growth",
+   "ours": [
+    "T01"
+   ],
+   "conf": {
+    "T01": "exact"
+   },
+   "indicators": 306
+  },
+  "4": {
+   "topic": "Education",
+   "ours": [
+    "T05"
+   ],
+   "conf": {
+    "T05": "exact"
+   },
+   "indicators": 1014
+  },
+  "5": {
+   "topic": "Energy & Mining",
+   "ours": [
+    "T08",
+    "T12"
+   ],
+   "conf": {
+    "T08": "exact",
+    "T12": "broad"
+   },
+   "indicators": 53
+  },
+  "6": {
+   "topic": "Environment",
+   "ours": [
+    "T09"
+   ],
+   "conf": {
+    "T09": "exact"
+   },
+   "indicators": 188
+  },
+  "7": {
+   "topic": "Financial Sector",
+   "ours": [
+    "T03"
+   ],
+   "conf": {
+    "T03": "exact"
+   },
+   "indicators": null
+  },
+  "8": {
+   "topic": "Health",
+   "ours": [
+    "T06"
+   ],
+   "conf": {
+    "T06": "exact"
+   },
+   "indicators": 658
+  },
+  "9": {
+   "topic": "Infrastructure",
+   "ours": [
+    "T11",
+    "T13"
+   ],
+   "conf": {
+    "T11": "broad",
+    "T13": "broad"
+   },
+   "indicators": 78
+  },
+  "10": {
+   "topic": "Social Protection & Labor",
+   "ours": [
+    "T04"
+   ],
+   "conf": {
+    "T04": "broad"
+   },
+   "indicators": 2042
+  },
+  "11": {
+   "topic": "Poverty",
+   "ours": [
+    "T04"
+   ],
+   "conf": {
+    "T04": "exact"
+   },
+   "indicators": 145
+  },
+  "12": {
+   "topic": "Private Sector",
+   "ours": [
+    "T02"
+   ],
+   "conf": {
+    "T02": "broad"
+   },
+   "indicators": null
+  },
+  "13": {
+   "topic": "Public Sector",
+   "ours": [
+    "T15"
+   ],
+   "conf": {
+    "T15": "exact"
+   },
+   "indicators": 155
+  },
+  "14": {
+   "topic": "Science & Technology",
+   "ours": [
+    "T14"
+   ],
+   "conf": {
+    "T14": "broad"
+   },
+   "indicators": null
+  },
+  "15": {
+   "topic": "Social Development",
+   "ours": [
+    "T04"
+   ],
+   "conf": {
+    "T04": "broad"
+   },
+   "indicators": null
+  },
+  "16": {
+   "topic": "Urban Development",
+   "ours": [
+    "T13"
+   ],
+   "conf": {
+    "T13": "exact"
+   },
+   "indicators": 27
+  },
+  "17": {
+   "topic": "Gender",
+   "ours": [
+    "T04"
+   ],
+   "conf": {
+    "T04": "broad"
+   },
+   "indicators": null
+  },
+  "18": {
+   "topic": "Millennium Development Goals",
+   "ours": [
+    "T15"
+   ],
+   "conf": {
+    "T15": "weak"
+   },
+   "indicators": null
+  },
+  "19": {
+   "topic": "Climate Change",
+   "ours": [
+    "T09",
+    "T10"
+   ],
+   "conf": {
+    "T09": "exact",
+    "T10": "broad"
+   },
+   "indicators": 82
+  },
+  "20": {
+   "topic": "External Debt",
+   "ours": [
+    "T03"
+   ],
+   "conf": {
+    "T03": "exact"
+   },
+   "indicators": null
+  },
+  "21": {
+   "topic": "Trade",
+   "ours": [
+    "T02"
+   ],
+   "conf": {
+    "T02": "exact"
+   },
+   "indicators": 155
+  }
+ },
+ "kaggle_roots": {
+  "subject": {
+   "maps_to": "主题轴（→ 我们 T01–T15）",
+   "ours": "T*"
+  },
+  "data type": {
+   "maps_to": "形态轴（→ 我们 M1–M7）",
+   "ours": "M*"
+  },
+  "task": {
+   "maps_to": "用途轴（→ **我们没有**）",
+   "ours": null
+  },
+  "technique": {
+   "maps_to": "方法轴（不映射，只作背景）",
+   "ours": null
+  },
+  "analysis": {
+   "maps_to": "分析领域（近似主题的子集）",
+   "ours": "T*"
+  }
+ },
+ "platforms": [
+  {
+   "platform_id": "hub_data_europa_eu_14539a46",
+   "name": "data.europa.eu",
+   "taxonomy": {
+    "kind": "受控词表 + 源方自定义混用",
+    "name": "DCAT-AP data-theme",
+    "internal_url": "http://publications.europa.eu/resource/authority/data-theme/",
+    "levels": 1,
+    "size_official": 13,
+    "quantifiable": true,
+    "api_filterable": false
+   },
+   "measured": {
+    "sampled": 1000,
+    "no_theme_share": 0.26,
+    "theme_entries": 1175,
+    "official_share": 0.71,
+    "custom_distinct": 71,
+    "note": "抽样 10 个关键词各 100 条；facets 接口不存在，只能抽样估计"
+   },
+   "other_facets": [
+    "catalog(40 个门户)",
+    "country",
+    "access_right",
+    "accrual_periodicity",
+    "is_hvd",
+    "keywords"
+   ],
+   "drill": "q 检索 + client 端按 categories 过滤（API 不支持 facet 参数）"
+  },
+  {
+   "platform_id": "hub_world_bank_open_data_6fe09252",
+   "name": "World Bank",
+   "taxonomy": {
+    "kind": "受控词表（官方维护）",
+    "name": "WB Topic",
+    "levels": 1,
+    "size_official": 21,
+    "quantifiable": true,
+    "api_filterable": true
+   },
+   "measured": {
+    "topic_indicator_total": 29544,
+    "top": {
+     "Education": 1014,
+     "Social Protection & Labor": 2042
+    }
+   },
+   "other_facets": [
+    "source（数据源，如 WDI/EDStats）",
+    "region",
+    "income level",
+    "indicator code"
+   ],
+   "drill": "/v2/topic/{id}/indicator 可直接按主题取指标，是四家里最好用的"
+  },
+  {
+   "platform_id": "hub_kaggle_datasets_d76c2f9d",
+   "name": "Kaggle",
+   "taxonomy": {
+    "kind": "多根标签体系（5 根，带 fullPath 与计数）",
+    "name": "Kaggle tags",
+    "levels": 4,
+    "size_official": null,
+    "quantifiable": true,
+    "api_filterable": true
+   },
+   "measured": {
+    "roots": [
+     "subject",
+     "data type",
+     "task",
+     "technique",
+     "analysis"
+    ],
+    "note": "每个 tag 自带 datasetCount，可直接当分面计数"
+   },
+   "other_facets": [
+    "license",
+    "usabilityRating",
+    "files(type/size)",
+    "voteCount/downloadCount"
+   ],
+   "drill": "/api/v1/datasets/list?search=&tag=... 可用"
+  },
+  {
+   "platform_id": "hub_openalex_e3ef6aee",
+   "name": "OpenAlex",
+   "taxonomy": {
+    "kind": "四层受控词表",
+    "name": "domain > field > subfield > topic",
+    "levels": 4,
+    "size_official": 4516,
+    "quantifiable": true,
+    "api_filterable": true
+   },
+   "measured": {
+    "domains": 4,
+    "fields": 26,
+    "subfields": 252,
+    "topics": 4516,
+    "note": "对象是论文不是数据集，只能当文献线索"
+   },
+   "other_facets": [
+    "publication_year",
+    "type",
+    "open_access"
+   ],
+   "drill": "/works?filter=topics.id:... 可用"
+  },
+  {
+   "platform_id": "hub_zenodo_d32b3fc5",
+   "name": "Zenodo",
+   "taxonomy": {
+    "kind": "受控词表（resource_type）+ 社区",
+    "name": "Zenodo resource types",
+    "levels": 2,
+    "size_official": null,
+    "quantifiable": false,
+    "api_filterable": true
+   },
+   "measured": {
+    "probe": "301/403，本机被挡",
+    "note": "未实测分类覆盖率"
+   },
+   "other_facets": [
+    "communities",
+    "keywords",
+    "access_right"
+   ],
+   "drill": "需跟随重定向 + 浏览器 UA"
+  },
+  {
+   "platform_id": "hub_28dfedfb",
+   "name": "国家数据集管理服务平台 / 中文政务门户",
+   "taxonomy": {
+    "kind": "无公开分类 API",
+    "name": "（只有采集主题桶 domain）",
+    "levels": 0,
+    "size_official": 0,
+    "quantifiable": false,
+    "api_filterable": false
+   },
+   "measured": {
+    "note": "架上 13 条的 domain 字段是采集桶，不是平台分类"
+   },
+   "other_facets": [
+    "站内关键词搜索"
+   ],
+   "drill": "只能给搜索 URL，不能给 facet 路径"
+  }
+ ],
+ "gaps": [
+  {
+   "l1": "T10",
+   "name": "气象与灾害",
+   "dcat": [],
+   "wb": [
+    "Climate Change"
+   ],
+   "reason": "DCAT-AP 无对应主题；且只有泛化/弱映射，需关键词兜底"
+  },
+  {
+   "l1": "T12",
+   "name": "工业制造与资源",
+   "dcat": [],
+   "wb": [
+    "Energy & Mining"
+   ],
+   "reason": "DCAT-AP 无对应主题；且只有泛化/弱映射，需关键词兜底"
+  },
+  {
+   "l1": "T14",
+   "name": "数字技术与 AI 语料",
+   "dcat": [],
+   "wb": [
+    "Science & Technology"
+   ],
+   "reason": "DCAT-AP 无对应主题；且只有泛化/弱映射，需关键词兜底"
+  }
+ ]
+}

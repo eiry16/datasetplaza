@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.eiry16/datasetplaza",
+  "title": "DatasetPlaza",
+  "description": "Dataset routing for agents: find the right source, with honest NO_MATCH and evidence provenance.",
+  "version": "0.44.2",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "datasetplaza-mcp",
+      "version": "0.44.2",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/eiry16/datasetplaza",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/eiry16/datasetplaza",
+  "license": "Apache-2.0"
+}

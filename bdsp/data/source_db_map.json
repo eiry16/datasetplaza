@@ -1,0 +1,2319 @@
+{
+  "schema": "dataset-plaza-source-db-map/1",
+  "generated_at": "2026-11-10T10:10:06+00:00",
+  "note": "源方库名/CKAN 分组 → 本平台 L1 门类的翻译表。证据档 source_mapped：比 inferred 强、比 declared 弱。未映射的值不猜，保持 T00。改这张表等于改口径，改完须重跑 build_capabilities + build_shelf。",
+  "rule_count": 15,
+  "rules": {
+    "Adjusted Net Savings": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Africa Development Indicators": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Agriculture & Rural Development": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「Agricultur」（农林牧渔）"
+    },
+    "Aid Effectiveness": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「Aid Effectiveness」（政府治理与法规）"
+    },
+    "Austria": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Belgium": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Climate Change": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「Climate」（环境与气候）"
+    },
+    "Country Climate and Development Report (CCDR)": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「Climate」（环境与气候）"
+    },
+    "Country Partnership Strategy for India (FY2013 - 17)": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「Partnership Strategy」（政府治理与法规）"
+    },
+    "Czechia": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Disability Data Hub (DDH)": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Disability」（人口与社会民生）"
+    },
+    "Doing Business": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「Doing Business」（贸易与产业）"
+    },
+    "Economic Fitness": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Economic」（宏观经济与统计）"
+    },
+    "Economic Fitness 2": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Economic」（宏观经济与统计）"
+    },
+    "Economy & Growth": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Economy」（宏观经济与统计）"
+    },
+    "Education": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「Education」（教育/人力）"
+    },
+    "Education Policy": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「Education」（教育/人力）"
+    },
+    "Education Statistics": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「Education」（教育/人力）"
+    },
+    "Energy & Mining": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「Energy」（能源与电力）"
+    },
+    "Enterprise Surveys": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「Enterprise Surveys」（贸易与产业）"
+    },
+    "Environment": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「Environment」（环境与气候）"
+    },
+    "Environment, Social and Governance (ESG) Data": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「Environment」（环境与气候）"
+    },
+    "Europe": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Exporter Dynamics Database – Indicators at Country-Year Level": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「Export」（贸易与产业）"
+    },
+    "External Debt": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "Financial Sector": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Food Prices for Nutrition": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Nutrition」（医疗卫生）"
+    },
+    "France": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "G20 Financial Inclusion Indicators": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Financial Inclusion」（金融财税与企业）"
+    },
+    "Gender": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Gender」（人口与社会民生）"
+    },
+    "Gender Disaggregated Labor Database (GDLD)": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Gender」（人口与社会民生）"
+    },
+    "Gender Statistics": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Gender」（人口与社会民生）"
+    },
+    "Germany": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Global Economic Monitor": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Economic」（宏观经济与统计）"
+    },
+    "Global Economic Prospects": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Economic」（宏观经济与统计）"
+    },
+    "Global Financial Development": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Global Financial Inclusion and Consumer Protection Survey": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Financial Inclusion」（金融财税与企业）"
+    },
+    "Global Financial Inclusion and Consumer Protection Survey (Internal)": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Financial Inclusion」（金融财税与企业）"
+    },
+    "Global Findex database": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Findex」（金融财税与企业）"
+    },
+    "Global Jobs Indicators Database (JOIN)": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Jobs」（人口与社会民生）"
+    },
+    "Global Partnership for Education": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「Education」（教育/人力）"
+    },
+    "Global Public Procurement": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「Procurement」（政府治理与法规）"
+    },
+    "Greece": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Health": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Health」（医疗卫生）"
+    },
+    "Health Equity and Financial Protection Indicators": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Health」（医疗卫生）"
+    },
+    "Health Nutrition and Population Statistics": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Health」（医疗卫生）"
+    },
+    "Health Nutrition and Population Statistics by Wealth Quintile": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Health」（医疗卫生）"
+    },
+    "Human Capital Index": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "ICP 2017": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「ICP」（宏观经济与统计）"
+    },
+    "IDA Results Measurement System": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Identification for Development (ID4D) Data": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Indonesia Database for Policy and Economic Research": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「Policy」（政府治理与法规）"
+    },
+    "Infrastructure": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「Infrastructure」（城市与公用事业）"
+    },
+    "International Comparison Program (ICP) 2005": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「International Comparison」（宏观经济与统计）"
+    },
+    "International Debt Statistics: DSSI": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "Ireland": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「land」（城市与公用事业）"
+    },
+    "Italy": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Jobs": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Jobs」（人口与社会民生）"
+    },
+    "Joint External Debt Hub": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "LAC Equity Lab": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Latvia": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Lithuania": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Logistics Performance Index": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Luxembourg": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Millenium development goals": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「development」（宏观经济与统计）"
+    },
+    "Millennium Development Goals": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Netherlands": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「land」（城市与公用事业）"
+    },
+    "PEFA 2011": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「PEFA」（政府治理与法规）"
+    },
+    "PEFA 2016": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「PEFA」（政府治理与法规）"
+    },
+    "PEFA_CRPFM": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「PEFA」（政府治理与法规）"
+    },
+    "PEFA_GRPFM": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「PEFA」（政府治理与法规）"
+    },
+    "PPPs Regulatory Quality": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Poland": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「land」（城市与公用事业）"
+    },
+    "Portugal": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Poverty": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Poverty」（人口与社会民生）"
+    },
+    "Private Sector": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Public Sector": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Quarterly External Debt Statistics GDDS": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "Quarterly External Debt Statistics SDDS": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "Quarterly Public Sector Debt": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「Debt」（金融财税与企业）"
+    },
+    "Science & Technology": {
+      "l1": "T14",
+      "l1_name": "数字技术与 AI 语料",
+      "via": "source_db_name",
+      "reason": "命中「Technolog」（数字技术与 AI）"
+    },
+    "Slovenia": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Social Development": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Social Protection & Labor": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Social Protection」（人口与社会民生）"
+    },
+    "Spain": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Statistical Performance Indicators (SPI)": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Statistic」（宏观经济与统计）"
+    },
+    "Subnational Malnutrition Database": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「nutrition」（医疗卫生）"
+    },
+    "Subnational Population": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Population」（人口与社会民生）"
+    },
+    "Sustainable Development Goals": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Sustainable Energy for All": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「Energy」（能源与电力）"
+    },
+    "Switzerland": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「land」（城市与公用事业）"
+    },
+    "The Atlas of Social Protection: Indicators of Resilience and Equity": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「Social Protection」（人口与社会民生）"
+    },
+    "Trade": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「Trade」（贸易与产业）"
+    },
+    "Ukraine": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "United Kingdom": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Universal Health Coverage": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「Health」（医疗卫生）"
+    },
+    "Urban Development": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "WDI Database Archives": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "Wealth Accounts": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Wealth Accounts」（宏观经济与统计）"
+    },
+    "World Development Indicators": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Development」（宏观经济与统计）"
+    },
+    "Worldwide Bureaucracy Indicators": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Indicator」（宏观经济与统计）"
+    },
+    "Worldwide Governance Indicators": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「Indicator」（宏观经济与统计）"
+    },
+    "agriculture": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「agricultur」（农林牧渔）"
+    },
+    "air quality": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "china": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "comtrade": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「trade」（贸易与产业）"
+    },
+    "economy": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「economy」（宏观经济与统计）"
+    },
+    "education": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「education」（教育/人力）"
+    },
+    "energy": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「energy」（能源与电力）"
+    },
+    "environment": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「environment」（环境与气候）"
+    },
+    "european union": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "export": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「export」（贸易与产业）"
+    },
+    "federal reserve": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "health": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「health」（医疗卫生）"
+    },
+    "import": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「import」（贸易与产业）"
+    },
+    "interest rate": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "monetary policy": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「policy」（政府治理与法规）"
+    },
+    "population": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「population」（人口与社会民生）"
+    },
+    "statistics": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「statistic」（宏观经济与统计）"
+    },
+    "trade": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「trade」（贸易与产业）"
+    },
+    "transport": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「transport」（交通与物流）"
+    },
+    "三维重建": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "专病": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "世界银行": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "中国": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "中国香港": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "中欧": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "临床病历": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "事件数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "事件标注": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "交通运输": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「交通」（交通与物流）"
+    },
+    "交通运输、仓储和邮政业": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「交通」（交通与物流）"
+    },
+    "交通违法": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「交通」（交通与物流）"
+    },
+    "产业园区": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "产业数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "产品开发": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "人口": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「人口」（人口与社会民生）"
+    },
+    "以接口形式提供服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "企业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "企业与商户名录": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "低空经济": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「经济」（宏观经济与统计）"
+    },
+    "住宿": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "住宿和餐饮业（GB/T 4754 H门类）": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "住房金融": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「金融」（金融财税与企业）"
+    },
+    "供应商寻源": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "供水": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "信息传输、软件和信息技术服务业": {
+      "l1": "T14",
+      "l1_name": "数字技术与 AI 语料",
+      "via": "source_db_name",
+      "reason": "命中「信息传输」（数字技术与 AI）"
+    },
+    "信用服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "信用核验": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "停车服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "公共安全": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「公共安全」（政府治理与法规）"
+    },
+    "公共数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "公共数据产品": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "公共数据授权运营": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "公共数据资源": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "公共文化": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「文化」（人口与社会民生）"
+    },
+    "公共管理、社会保障和社会组织": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「公共管理」（政府治理与法规）"
+    },
+    "公积金": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「公积金」（城市与公用事业）"
+    },
+    "六盘水市": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "其他": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "具身智能": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "养老保险": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "再开发数据产品": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "农、林、牧、渔业": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「渔业」（农林牧渔）"
+    },
+    "农业": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「农业」（农林牧渔）"
+    },
+    "农药登记": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "分析咨询": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "初级数据产品": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "利率": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "制造业": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「制造」（工业制造）"
+    },
+    "动作采集": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "化工产业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "医学影像": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "医疗": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「医疗」（医疗卫生）"
+    },
+    "医疗保障": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「医疗」（医疗卫生）"
+    },
+    "医疗健康": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「医疗」（医疗卫生）"
+    },
+    "医疗卫生": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「医疗」（医疗卫生）"
+    },
+    "医疗就诊": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「医疗」（医疗卫生）"
+    },
+    "卫星遥感": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "卫生": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「卫生」（医疗卫生）"
+    },
+    "卫生和社会工作": {
+      "l1": "T06",
+      "l1_name": "医疗卫生",
+      "via": "source_db_name",
+      "reason": "命中「卫生」（医疗卫生）"
+    },
+    "双边贸易": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「贸易」（贸易与产业）"
+    },
+    "发展、地理及土地资讯": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「地理」（城市与公用事业）"
+    },
+    "商贸流通": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "国民经济行业分类 GB/T 4754-2017": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「经济」（宏观经济与统计）"
+    },
+    "国际统计": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「统计」（宏观经济与统计）"
+    },
+    "国际音标": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "图像": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "图像数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "土壤墒情": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "地下水": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "地理空间": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「地理」（城市与公用事业）"
+    },
+    "城市治理": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「治理」（政府治理与法规）"
+    },
+    "城市管理及公共设施": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「城市管理」（城市与公用事业）"
+    },
+    "城建住房": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「城建」（城市与公用事业）"
+    },
+    "多模态语料": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "多源数值预报": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "婚姻登记": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "安全生产": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "安顺市": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "宏观": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「宏观」（宏观经济与统计）"
+    },
+    "宏观经济": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「宏观」（宏观经济与统计）"
+    },
+    "官方清单": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "实体识别": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "实时监测": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "少数民族语言": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "就业及劳工": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「就业」（人口与社会民生）"
+    },
+    "居民服务、修理和其他服务业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "山地气象": {
+      "l1": "T10",
+      "l1_name": "气象与灾害",
+      "via": "source_db_name",
+      "reason": "命中「气象」（气象与灾害）"
+    },
+    "工业": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「工业」（工业制造）"
+    },
+    "工业农业": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「农业」（农林牧渔）"
+    },
+    "工业数据": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「工业」（工业制造）"
+    },
+    "工业统计": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「工业」（工业制造）"
+    },
+    "工商业": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「工商业」（工业制造）"
+    },
+    "工程建设": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "工程系统": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "市场主体": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「市场主体」（政府治理与法规）"
+    },
+    "市场监管": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「监管」（政府治理与法规）"
+    },
+    "平行语对": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "康乐、体育及文化": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「康乐」（人口与社会民生）"
+    },
+    "康复训练": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "建筑业": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「建筑业」（工业制造）"
+    },
+    "开放数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "开放数据门户": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "患者诊疗": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "房地产业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "房屋": {
+      "l1": "T13",
+      "l1_name": "城市与公用事业",
+      "via": "source_db_name",
+      "reason": "命中「房屋」（城市与公用事业）"
+    },
+    "批发和零售业": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「零售」（贸易与产业）"
+    },
+    "指令数据集": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "授权运营": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "接口": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "政务服务": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「政务」（政府治理与法规）"
+    },
+    "教育": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「教育」（教育/人力）"
+    },
+    "教育文化": {
+      "l1": "T05",
+      "l1_name": "教育与人力",
+      "via": "source_db_name",
+      "reason": "命中「教育」（教育/人力）"
+    },
+    "数据中心": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据交易": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据成果": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据目录 / 服务平台": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "数据确权": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据资源 · API": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "数据资源 · DB": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据资源 · DB,API": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据资源 · DB,FILE": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据资源 · FILE": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "数据集市场 / 聚合索引": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "文化、体育和娱乐业": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「文化」（人口与社会民生）"
+    },
+    "文化旅游": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「文化」（人口与社会民生）"
+    },
+    "文本标注": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "文本语料": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "旅游": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「旅游」（贸易与产业）"
+    },
+    "时序数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "时序监测": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "智慧交通": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「交通」（交通与物流）"
+    },
+    "智慧农业": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「农业」（农林牧渔）"
+    },
+    "智慧司法": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "暴雨": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "机构团体": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "标准接口": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "标注图像": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "植物病害": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "模型服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "欧盟": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "毕节市": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "民生服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "气象": {
+      "l1": "T10",
+      "l1_name": "气象与灾害",
+      "via": "source_db_name",
+      "reason": "命中「气象」（气象与灾害）"
+    },
+    "气象服务": {
+      "l1": "T10",
+      "l1_name": "气象与灾害",
+      "via": "source_db_name",
+      "reason": "命中「气象」（气象与灾害）"
+    },
+    "水位": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "水利、环境和公共设施管理业": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「环境」（环境与气候）"
+    },
+    "水文": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "水温": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "水质": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「水质」（环境与气候）"
+    },
+    "污水处理": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "法国": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "法律及保安": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「法律」（政府治理与法规）"
+    },
+    "法律文本": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「法律」（政府治理与法规）"
+    },
+    "法律服务": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「法律」（政府治理与法规）"
+    },
+    "泥沙": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "流量": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "渔业": {
+      "l1": "T07",
+      "l1_name": "农林牧渔与食品",
+      "via": "source_db_name",
+      "reason": "命中「渔业」（农林牧渔）"
+    },
+    "灾害识别": {
+      "l1": "T10",
+      "l1_name": "气象与灾害",
+      "via": "source_db_name",
+      "reason": "命中「灾害」（气象与灾害）"
+    },
+    "灾情": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "煤炭工业": {
+      "l1": "T12",
+      "l1_name": "工业制造与资源",
+      "via": "source_db_name",
+      "reason": "命中「工业」（工业制造）"
+    },
+    "特色产业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "环境": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「环境」（环境与气候）"
+    },
+    "环境与公用事业": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「环境」（环境与气候）"
+    },
+    "生态": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「生态」（环境与气候）"
+    },
+    "生态环境": {
+      "l1": "T09",
+      "l1_name": "环境与气候",
+      "via": "source_db_name",
+      "reason": "命中「生态」（环境与气候）"
+    },
+    "生活服务": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「生活服务」（贸易与产业）"
+    },
+    "电力、热力、燃气及水生产和供应业": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「电力」（能源与电力）"
+    },
+    "电商运营": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "电机": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "病历": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "登记服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "监测服务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "目标检测": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "知识图谱": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "知识库": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "知识问答": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "短临预报": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "社会保险": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "社会保障": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "社保就业": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「就业」（人口与社会民生）"
+    },
+    "社区及社会福利": {
+      "l1": "T04",
+      "l1_name": "人口与社会民生",
+      "via": "source_db_name",
+      "reason": "命中「社区」（人口与社会民生）"
+    },
+    "科学研究和技术服务业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "科技创新": {
+      "l1": "T14",
+      "l1_name": "数字技术与 AI 语料",
+      "via": "source_db_name",
+      "reason": "命中「科技」（数字技术与 AI）"
+    },
+    "科技及广播": {
+      "l1": "T14",
+      "l1_name": "数字技术与 AI 语料",
+      "via": "source_db_name",
+      "reason": "命中「科技」（数字技术与 AI）"
+    },
+    "科技管理": {
+      "l1": "T14",
+      "l1_name": "数字技术与 AI 语料",
+      "via": "source_db_name",
+      "reason": "命中「科技」（数字技术与 AI）"
+    },
+    "科研数据": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "租赁和商务服务业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "税务": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "税收政策": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「税收」（金融财税与企业）"
+    },
+    "算力": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "美联储": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "职业资格": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "联邦基金利率": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "肿瘤": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "能源": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「能源」（能源与电力）"
+    },
+    "蒸发": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "行业专区": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "行业研判": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "行业高质量数据集": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "行政执法": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "证照核验": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "诊疗": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "词元经济": {
+      "l1": "T01",
+      "l1_name": "宏观经济与统计",
+      "via": "source_db_name",
+      "reason": "命中「经济」（宏观经济与统计）"
+    },
+    "语料市场": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "语音语料": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "财税金融": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「金融」（金融财税与企业）"
+    },
+    "财经": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「财经」（金融财税与企业）"
+    },
+    "货币政策": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「货币」（金融财税与企业）"
+    },
+    "贵州数据要素": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "贵州省": {
+      "l1": null,
+      "l1_name": "",
+      "via": "not_a_source_category",
+      "reason": "平台名/地理或批次标签，不是源方分类；不做主题翻译"
+    },
+    "贵阳贵安": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "贸易": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「贸易」（贸易与产业）"
+    },
+    "资源能源": {
+      "l1": "T08",
+      "l1_name": "能源与电力",
+      "via": "source_db_name",
+      "reason": "命中「能源」（能源与电力）"
+    },
+    "运输": {
+      "l1": "T11",
+      "l1_name": "交通与物流",
+      "via": "source_db_name",
+      "reason": "命中「运输」（交通与物流）"
+    },
+    "进出口": {
+      "l1": "T02",
+      "l1_name": "贸易与产业",
+      "via": "source_db_name",
+      "reason": "命中「进出口」（贸易与产业）"
+    },
+    "选举及立法机关": {
+      "l1": "T15",
+      "l1_name": "政府治理与法规",
+      "via": "source_db_name",
+      "reason": "命中「选举」（政府治理与法规）"
+    },
+    "遵义市": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "采矿业": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "金融": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「金融」（金融财税与企业）"
+    },
+    "金融业": {
+      "l1": "T03",
+      "l1_name": "金融财税与企业",
+      "via": "source_db_name",
+      "reason": "命中「金融」（金融财税与企业）"
+    },
+    "铜仁市": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "问答语料": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "降水": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "音频语料": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "预后预测": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "预警预报": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "食物": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "餐饮": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "饭店": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "高质量数据集": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "黔东南州": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "黔南州": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    },
+    "黔西南州": {
+      "l1": null,
+      "l1_name": "",
+      "via": "source_db_name",
+      "reason": "源方分类名不含可翻译的主题词：不猜，保持 T00 待人工定类"
+    }
+  },
+  "unmapped_values": [
+    "Adjusted Net Savings",
+    "Austria",
+    "Belgium",
+    "Czechia",
+    "Europe",
+    "Financial Sector",
+    "France",
+    "Germany",
+    "Greece",
+    "Human Capital Index",
+    "IDA Results Measurement System",
+    "Italy",
+    "LAC Equity Lab",
+    "Latvia",
+    "Lithuania",
+    "Logistics Performance Index",
+    "Luxembourg",
+    "PPPs Regulatory Quality",
+    "Portugal",
+    "Private Sector",
+    "Public Sector",
+    "Slovenia",
+    "Spain",
+    "Ukraine",
+    "United Kingdom",
+    "WDI Database Archives",
+    "air quality",
+    "china",
+    "european union",
+    "federal reserve",
+    "interest rate",
+    "三维重建",
+    "专病",
+    "世界银行",
+    "中国",
+    "中国香港",
+    "中欧",
+    "临床病历",
+    "事件数据",
+    "事件标注",
+    "产业园区",
+    "产业数据",
+    "产品开发",
+    "以接口形式提供服务",
+    "企业",
+    "企业与商户名录",
+    "住宿",
+    "住宿和餐饮业（GB/T 4754 H门类）",
+    "供应商寻源",
+    "供水",
+    "信用服务",
+    "信用核验",
+    "停车服务",
+    "公共数据",
+    "公共数据产品",
+    "公共数据授权运营",
+    "公共数据资源",
+    "六盘水市",
+    "其他",
+    "具身智能",
+    "养老保险",
+    "再开发数据产品",
+    "农药登记",
+    "分析咨询",
+    "初级数据产品",
+    "利率",
+    "动作采集",
+    "化工产业",
+    "医学影像",
+    "卫星遥感",
+    "商贸流通",
+    "国际音标",
+    "图像",
+    "图像数据",
+    "土壤墒情",
+    "地下水",
+    "多模态语料",
+    "多源数值预报",
+    "婚姻登记",
+    "安全生产",
+    "安顺市",
+    "官方清单",
+    "实体识别",
+    "实时监测",
+    "少数民族语言",
+    "居民服务、修理和其他服务业",
+    "工程建设",
+    "工程系统",
+    "平行语对",
+    "康复训练",
+    "开放数据",
+    "开放数据门户",
+    "患者诊疗",
+    "房地产业",
+    "指令数据集",
+    "授权运营",
+    "接口",
+    "数据中心",
+    "数据交易",
+    "数据成果",
+    "数据目录 / 服务平台",
+    "数据确权",
+    "数据资源 · API",
+    "数据资源 · DB",
+    "数据资源 · DB,API",
+    "数据资源 · DB,FILE",
+    "数据资源 · FILE",
+    "数据集市场 / 聚合索引",
+    "文本标注",
+    "文本语料",
+    "时序数据",
+    "时序监测",
+    "智慧司法",
+    "暴雨",
+    "机构团体",
+    "标准接口",
+    "标注图像",
+    "植物病害",
+    "模型服务",
+    "欧盟",
+    "毕节市",
+    "民生服务",
+    "水位",
+    "水文",
+    "水温",
+    "污水处理",
+    "法国",
+    "泥沙",
+    "流量",
+    "灾情",
+    "特色产业",
+    "电商运营",
+    "电机",
+    "病历",
+    "登记服务",
+    "监测服务",
+    "目标检测",
+    "知识图谱",
+    "知识库",
+    "知识问答",
+    "短临预报",
+    "社会保险",
+    "社会保障",
+    "科学研究和技术服务业",
+    "科研数据",
+    "租赁和商务服务业",
+    "税务",
+    "算力",
+    "美联储",
+    "职业资格",
+    "联邦基金利率",
+    "肿瘤",
+    "蒸发",
+    "行业专区",
+    "行业研判",
+    "行业高质量数据集",
+    "行政执法",
+    "证照核验",
+    "诊疗",
+    "语料市场",
+    "语音语料",
+    "贵州数据要素",
+    "贵州省",
+    "贵阳贵安",
+    "遵义市",
+    "采矿业",
+    "铜仁市",
+    "问答语料",
+    "降水",
+    "音频语料",
+    "预后预测",
+    "预警预报",
+    "食物",
+    "餐饮",
+    "饭店",
+    "高质量数据集",
+    "黔东南州",
+    "黔南州",
+    "黔西南州"
+  ]
+}

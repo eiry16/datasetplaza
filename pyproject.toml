@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datasetplaza-mcp"
+version = "0.44.2"
+description = "Read-only dataset routing for agents: which source can answer, with honest NO_MATCH and evidence provenance."
+readme = "PKG_README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "eiry" }]
+keywords = ["mcp", "model-context-protocol", "dataset", "catalog", "agent", "data-discovery"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+# 零第三方依赖：MCP stdio 只靠标准库，装完即可 tools/list。
+dependencies = []
+
+[project.scripts]
+datasetplaza-mcp = "bdsp.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/eiry16/datasetplaza"
+Repository = "https://github.com/eiry16/datasetplaza"
+Issues = "https://github.com/eiry16/datasetplaza/issues"
+
+[tool.setuptools]
+# 只发 Python 模块。313 MB 的 listings.json、shelf/archive、runtime 状态
+# 一律不进 wheel —— 数据快照单独从 GitHub Release 取，见 docs/PUBLISHING.md。
+packages = ["bdsp"]
